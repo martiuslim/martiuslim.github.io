@@ -263,7 +263,7 @@ String.prototype.rightChars = function(n){
     this.cursorDisplay = element.dataset.cursordisplay || "_";
     element.innerHTML = this.cursorDisplay;
     this.on = true;
-    element.style.transition = "all 0.1s";
+    element.style.transition = "all 0.5s";
     var myself = this;
     this.interval = setInterval(function() {
       myself.updateBlinkState();
