@@ -26,6 +26,7 @@
     "gulp-wait": "0.0.2"
   },
   "dependencies": {
+    "hoek": "^4.2.1",
     "typer.js": "^1.2.1"
   }
 }
